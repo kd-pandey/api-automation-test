@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EnvironmentSettings>
+	<Dev>
+		<Environment>https://api-dev.dev.dev-cglcloud.com</Environment>
+		<OktaEnvironment>https://cargillcustomer-qa.oktapreview.com</OktaEnvironment>
+		<OktaMidUrl>auseru1y91KUkOCCB0h7</OktaMidUrl>
+		<Username>cantestuser01@example.com</Username>
+		<Password>Welcome@1234</Password>
+		<Client_ID>0oakm04b5j84QgSQ40h7</Client_ID>
+		<HtmlReportPath></HtmlReportPath>
+		<HtmlReportTitle></HtmlReportTitle>
+		<ShowBuildStatus>false</ShowBuildStatus>
+<!-- Provide test suite names to be executed, separated by comma. Example -  Suite1, Suite2, Suite3 -->
+        <SuitesToExecute>API_RegressionSuite_DEV</SuitesToExecute>
+
+	</Dev>
+	<Stage>
+		<Environment>https://api-stage.stage.cglcloud.in</Environment>
+		<OktaEnvironment>https://cargillcustomer-uat.oktapreview.com</OktaEnvironment>
+		<OktaMidUrl>ausf5swlrsgiHV3z70h7</OktaMidUrl>
+		<Username>Cantestuser102@gmail.com</Username>
+		<Password>Welcome@123</Password>
+		<Client_ID>0oamg7g8i1Pw0ASa30h7</Client_ID>
+		<HtmlReportPath></HtmlReportPath>
+		<HtmlReportTitle></HtmlReportTitle>
+		<ShowBuildStatus>false</ShowBuildStatus>
+       <!-- Provide test suite names to be executed, separated by comma. Example -  Suite1, Suite2, Suite3 -->
+       <SuitesToExecute>API_RegressionSuite_STAGE</SuitesToExecute>
+
+	</Stage>
+
+
+	<Prod>
+		<Environment>https://api.cglcloud.com</Environment>
+		<OktaEnvironment>https://cargillcustomer.okta-emea.com</OktaEnvironment>
+		<OktaUniqueIDForEnvironment>aus1ykm8e9QxlFVM80i7</OktaUniqueIDForEnvironment>
+		<Username>Cantestuser103@gmail.com</Username>
+		<Password>Welcome@123</Password>
+		<Client_ID>0oa30kohv7JBFFwqa0i7</Client_ID>
+		<HtmlReportPath></HtmlReportPath>
+		<HtmlReportTitle></HtmlReportTitle>
+		<ShowBuildStatus>false</ShowBuildStatus>
+       <!-- Provide test suite names to be executed, separated by comma. Example -  Suite1, Suite2, Suite3 -->
+       <SuitesToExecute>API_RegressionSuite_PROD</SuitesToExecute>
+
+	</Prod>
+</EnvironmentSettings>
